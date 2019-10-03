@@ -1,12 +1,13 @@
 function setup(){
   createCanvas(600,600);
   background(220);
+  strokeWeight(23);
 }
 
 function draw(){
 
 if (!mouseIsPressed){
-  ellipse(mouseX,mouseY,10,10);
+  line(mouseX,mouseY,pmouseX,pmouseY);
 }
 
 }
