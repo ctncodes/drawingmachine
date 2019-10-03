@@ -1,6 +1,6 @@
 function setup(){
   createCanvas(600,600);
-  background(220, 50, 133);
+  background(250,235,215);
   strokeWeight(23);
 }
 
