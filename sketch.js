@@ -11,5 +11,10 @@ if (mouseIsPressed){
   line(width - mouseX, height - mouseY, width - pmouseX, height - pmouseY);
   line(mouseX,mouseY,pmouseX,pmouseY);
 }
-
+}
+function keyTyped() {
+  if (key === 's') {
+    console.log(`I'm pressing key s`)
+  }
+  return false;
 }
