@@ -12,7 +12,7 @@ function draw(){
   noiseOffset += 0.05;
   strokeWidth = noise(noiseOffset) * 100;
 if (mouseIsPressed){
-  stroke(map(mouseX, 0, 450, 0, true));
+  stroke(map(mouseX, 0, 450, 0, 255, true));
   line(mouseX, mouseY, pmouseX, pmouseY);
 }
 }
