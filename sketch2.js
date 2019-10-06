@@ -61,7 +61,7 @@ let myp9 = new p5(sketch5);
 //   };
 // };
 // let myp11 = new p5(sketch7);
-// let sketch12 = function(p) {
+// let sketch8 = function(p) {
 //   p.setup = function() {
 //     p.createCanvas(450, 450);
 //   };
@@ -78,8 +78,8 @@ let myp9 = new p5(sketch5);
 //     p.background(153);
 //   };
 // };
-// let myp8 = new p5(sketch4);
-// let sketch5 = function(p) {
+// let myp13 = new p5(sketch9);
+// let sketch10 = function(p) {
 //   p.setup = function() {
 //     p.createCanvas(450, 450);
 //   };
@@ -87,8 +87,8 @@ let myp9 = new p5(sketch5);
 //     p.background(204);
 //   };
 // };
-// let myp9 = new p5(sketch5);
-// let sketch = function(p) {
+// let myp14 = new p5(sketch10);
+// let sketch11 = function(p) {
 //   p.setup = function() {
 //     p.createCanvas(450, 450);
 //   };
@@ -96,8 +96,8 @@ let myp9 = new p5(sketch5);
 //     p.background(0);
 //   };
 // };
-// let myp5 = new p5(sketch);
-// let sketch2 = function(p) {
+// let myp15 = new p5(sketch11);
+// let sketch12 = function(p) {
 //   p.setup = function() {
 //     p.createCanvas(450, 450);
 //   };
@@ -105,8 +105,8 @@ let myp9 = new p5(sketch5);
 //     p.background(51);
 //   };
 // };
-// let myp6 = new p5(sketch2);
-// let sketch3 = function(p) {
+// let myp16 = new p5(sketch12);
+// let sketch13 = function(p) {
 //   p.setup = function() {
 //     p.createCanvas(450, 450);
 //   };
@@ -114,8 +114,8 @@ let myp9 = new p5(sketch5);
 //     p.background(102);
 //   };
 // };
-// let myp7 = new p5(sketch3);
-// let sketch4 = function(p) {
+// let myp17 = new p5(sketch13);
+// let sketch14 = function(p) {
 //   p.setup = function() {
 //     p.createCanvas(450, 450);
 //   };
@@ -123,8 +123,8 @@ let myp9 = new p5(sketch5);
 //     p.background(153);
 //   };
 // };
-// let myp8 = new p5(sketch4);
-// let sketch5 = function(p) {
+// let myp18 = new p5(sketch14);
+// let sketch15 = function(p) {
 //   p.setup = function() {
 //     p.createCanvas(450, 450);
 //   };
@@ -132,4 +132,4 @@ let myp9 = new p5(sketch5);
 //     p.background(204);
 //   };
 // };
-// let myp9 = new p5(sketch5);
+// let myp19 = new p5(sketch15);
