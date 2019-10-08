@@ -4,7 +4,8 @@ let strokeWidth = 5;
 function setup(){
   //Drawing #1
   createCanvas(450,450);
-  background(250,235,215);
+  // background(250,235,215);
+  background(0,71,171);
 }
 
 function draw(){
