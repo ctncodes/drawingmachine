@@ -10,7 +10,7 @@ function setup() {
   noFill();
 }
 function draw() {
-  if (mouseIsPressed) {
+  if (!mouseIsPressed) {
     checkeredPattern += 5;
     background(checkeredPattern);
     array.push([mouseX,mouseY]);
