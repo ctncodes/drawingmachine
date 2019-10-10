@@ -5,4 +5,5 @@ html, body {
 }
 canvas {
   display: inline-table;
+  border: 25px groove #B22222;
 }
