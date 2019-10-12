@@ -12,8 +12,8 @@ let sketch = function(p) {
     // p.noFill();
   };
   p.draw = function() {
-    // p.background(250, 235, 215);
-    p.background('assets/Michael Jackson One.png');
+    p.background(250, 235, 215);
+    // p.background('assets/Michael Jackson One.png');
     // p.background('#453B32');
     // if (p.mouseIsPressed) {
     //   // p.checkeredPattern += 5;
