@@ -6,14 +6,14 @@ let sketch = function(p) {
     p.checkeredGreen = 0;
     p.checkeredBlue = 0;
     p.theGrid = [];
-
+    p.square1 = p.loadImage('assets/Michael Jackson One.png');
     p.createCanvas(400, 400);
     // p.drawChessBoard();
     // p.noFill();
   };
   p.draw = function() {
-    p.background(250, 235, 215);
-    // p.background('assets/Michael Jackson One.png');
+    // p.background(250, 235, 215);
+    p.background(p.square1);
     // p.background('#453B32');
     // if (p.mouseIsPressed) {
     //   // p.checkeredPattern += 5;
