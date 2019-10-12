@@ -13,7 +13,7 @@ let sketch = function(p) {
   };
   p.draw = function() {
     // p.background(250, 235, 215);
-    p.background('#453B32');
+    // p.background('#453B32');
     p.background('assets/Michael Jackson One.jpg');
     // if (p.mouseIsPressed) {
     //   // p.checkeredPattern += 5;
