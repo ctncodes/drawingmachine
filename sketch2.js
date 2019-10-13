@@ -7,12 +7,14 @@ let sketch = function(p) {
     p.checkeredBlue = 0;
     p.theGrid = [];
     p.square1 = p.loadImage('assets/Leonardo_da_Vinci - Self-Portrait.jpg');
+    // p.square1 = p.loadImage('assets/Sora in The Grid.png');
     p.createCanvas(400, 400);
     // p.drawChessBoard();
     // p.noFill();
   };
   p.draw = function() {
     p.background(250, 235, 215);
+    // p.background(10);
     p.background(p.square1);
     // p.background('#453B32');
     // if (p.mouseIsPressed) {
@@ -80,11 +82,13 @@ let myp5 = new p5(sketch);
 let sketch2 = function(p) {
 
   p.setup = function() {
+  // p.square1 = p.loadImage('assets/Sora in The Grid.png');
     p.createCanvas(400, 400);
   };
   p.draw = function() {
     // p.background('#453B32');
     p.background(255, 238, 195);
+    p.background(p.square1);
   };
 };
 let myp6 = new p5(sketch2);
