@@ -143,7 +143,7 @@ let myp10 = new p5(sketch6);
 let sketch7 = function(p) {
 
   p.setup = function() {
-    p.square1 = p.loadImage('assets/Leonardo - Birds 2.jpg');
+    p.square1 = p.loadImage('assets/Leonardo - Flywheel.jpg');
     p.createCanvas(400, 400);
   };
   p.draw = function() {
@@ -167,7 +167,7 @@ let myp12 = new p5(sketch8);
 let sketch9 = function(p) {
 
   p.setup = function() {
-    p.square1 = p.loadImage('assets/Leonardo - Birds.jpg');
+    p.square1 = p.loadImage('assets/Leonardo - Giant Crossbow.jpg');
     p.createCanvas(400, 400);
   };
   p.draw = function() {
