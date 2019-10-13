@@ -5,7 +5,7 @@ html, body {
 }
 canvas {
   display: inline-table;
-  /* border: 25px groove gold; */
+  border: 20px groove gold;
   /* border: 25px groove #B22222; */
-  border: 25px groove #BDA58D;
+  /* border: 25px groove #BDA58D; */
 }
