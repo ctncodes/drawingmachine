@@ -249,36 +249,3 @@ let sketch15 = function(p) {
   };
 };
 let myp19 = new p5(sketch15);
-// let sketch16 = function(p) {
-//
-//   p.setup = function() {
-//     p.createCanvas(400, 400);
-//   };
-//   p.draw = function() {
-//     p.background('#453B32');
-//     // p.background(255, 248, 231);
-//   };
-// };
-// let myp20 = new p5(sketch16);
-// let sketch17 = function(p) {
-//
-//   p.setup = function() {
-//     p.createCanvas(400, 400);
-//   };
-//   p.draw = function() {
-//     p.background('#453B32');
-//     // p.background(255, 248, 231);
-//   };
-// };
-// let myp21 = new p5(sketch17);
-// let sketch18 = function(p) {
-//
-//   p.setup = function() {
-//     p.createCanvas(400, 400);
-//   };
-//   p.draw = function() {
-//     p.background('#453B32');
-//     // p.background(255, 248, 231);
-//   };
-// };
-// let myp22 = new p5(sketch18);
