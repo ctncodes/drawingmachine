@@ -31,15 +31,16 @@ let sketch = function(p) {
   p.keyTyped = function() {
     if (p.key === 'a') {
       p.saveCanvas('fileName', 'png');
-    } else if (key === 'd') {
-      p.background(255);
-      p.beginShape();
-      for (let i = 0; i < p.array.length; i++) {
-        p.curveVertex(p.array[i][0],p.array[i][1])
-      }
-      p.endShape();
+    // } else if (key === 'd') {
+    //   p.background(255);
+    //   p.beginShape();
+    //   for (let i = 0; i < p.array.length; i++) {
+    //     p.curveVertex(p.array[i][0],p.array[i][1])
+    //   }
+    //   p.endShape();
+    // }
+    // return false;
     }
-    return false;
   }
   p.drawChessBoard = function() {
     p.numCells = 8;
@@ -121,7 +122,7 @@ let sketch4 = function(p) {
     }
   };
   p.keyTyped = function() {
-    if (p.key === 'c') {
+    if (p.key === 'd') {
       p.saveCanvas('fileName', 'png');
     }
   }
