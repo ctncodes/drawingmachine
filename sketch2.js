@@ -61,11 +61,7 @@ let sketch4 = function(p) {
   };
   p.keyTyped = function() {
     if (p.key === 'd') {
-<<<<<<< HEAD
       p.saveCanvas('fileName', 'jpg');
-=======
-      p.saveCanvas('fileName', 'png');
->>>>>>> 1ecc8cc7a0e66ce2ba6e6260003684566abcbd14
     }
   };
 };
