@@ -102,7 +102,7 @@ let sketch6 = function(p) {
 let myp10 = new p5(sketch6);
 let sketch7 = function(p) {
   p.setup = function() {
-    p.square1 = p.loadImage('assets/Leonardo - Flywheel.jpg');
+    p.square1 = p.loadImage('assets/Flying Machine 3.jpg');
     p.createCanvas(400, 400);
     p.background(245, 222, 179);
   };
@@ -204,7 +204,7 @@ let sketch12 = function(p) {
 let myp16 = new p5(sketch12);
 let sketch13 = function(p) {
   p.setup = function() {
-    p.square1 = p.loadImage('assets/Flying Machine 3.jpg');
+    p.square1 = p.loadImage('assets/Leonardo - Temporary Bridges');
     p.createCanvas(400, 400);
     p.background(255, 248, 220);
   };
@@ -238,7 +238,7 @@ let sketch14 = function(p) {
 let myp18 = new p5(sketch14);
 let sketch15 = function(p) {
   p.setup = function() {
-    p.square1 = p.loadImage('assets/Flying Machine 2.jpg');
+    p.square1 = p.loadImage('assets/Flying Machine.jpg');
     p.createCanvas(400, 400);
     p.background(255, 248, 231);
   };
