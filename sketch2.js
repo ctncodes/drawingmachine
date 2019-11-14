@@ -204,7 +204,7 @@ let sketch12 = function(p) {
 let myp16 = new p5(sketch12);
 let sketch13 = function(p) {
   p.setup = function() {
-    p.square1 = p.loadImage('assets/Leonardo - Temporary Bridges');
+    p.square1 = p.loadImage('assets/Leonardo - Temporary Bridges.jpg');
     p.createCanvas(400, 400);
     p.background(255, 248, 220);
   };
