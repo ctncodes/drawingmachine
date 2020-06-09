@@ -136,7 +136,7 @@ let sketch8 = function(p) {
 let myp12 = new p5(sketch8);
 let sketch9 = function(p) {
   p.setup = function() {
-    p.square1 = p.loadImage('assets/Leonardo - Giant Crossbow.jpg');
+    p.square1 = p.loadImage('assets/Leonardo - Hydraulic Piping.jpg');
     p.createCanvas(400, 400);
     p.background(250, 231, 181);
   };
@@ -170,7 +170,7 @@ let sketch10 = function(p) {
 let myp14 = new p5(sketch10);
 let sketch11 = function(p) {
   p.setup = function() {
-    p.square1 = p.loadImage('assets/Flying Machine.jpg');
+    p.square1 = p.loadImage('assets/Leonardo - The Rudder of a Wing.jpg');
     p.createCanvas(400, 400);
     p.background(255, 235, 205);
   };
