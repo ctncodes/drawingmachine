@@ -34,7 +34,7 @@ let sketch2 = function(p) {
 let myp6 = new p5(sketch2);
 let sketch3 = function(p) {
   p.setup = function() {
-    p.square1 = p.loadImage('assets/Mona Lisa.jpg');
+    p.square1 = p.loadImage("assets/Leonardo's Horse.jpg");
     p.createCanvas(400, 400);
     p.background(250, 240, 205);
   };
